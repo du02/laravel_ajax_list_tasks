@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+:root {
+    --my-red: #FF588C;
+    --my-green: #80DEA5;
+    --my-yellow: #ffcf91;
+    --my-blue: #97BBCA;
+    --my-dark: #352D42;
+    --my-white: #fafafa;
+    --my-black: #000;
+    --my-gray: #cecece;
+    --my-lite: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--my-white);
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: var(--my-lite);
+    height: 25vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo {
+    /*margin-top: 15px;*/
+    height: 160px;
+}
+
+.g-button {
+    /*position: absolute;*/
+    margin-top: -35px;
+    margin-bottom: 10px;
+}
+
+.button-adding {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--my-white);
+    border: 3px solid var(--my-white);
+    cursor: pointer;
+    color: var(--my-black);
+    transition: 0.2s;
+}
+
+.button-adding:hover {
+    box-shadow: none;
+    background-color: var(--my-lite);
+    border: 1px solid var(--my-gray);
+    color: var(--my-gray);
+}
+
+.main {
+    background-color: var(--my-white);
+}
+
+.card-border-hard {
+    border-left: 10px solid var(--my-red);
+}
+
+.card-border-medium {
+    border-left: 10px solid var(--my-yellow);
+}
+
+.card-border-easy {
+    border-left: 10px solid var(--my-gray);
+}
